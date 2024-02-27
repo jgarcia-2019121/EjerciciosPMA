@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.hangman {
+    margin: 20px;
+}
+
+canvas {
+    border: 1px solid #333;
+}
+
+.word {
+    margin: 20px;
+}
+
+.keyboard {
+    margin: 20px;
+}
+
+.letter {
+    font-size: 24px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.letter:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
